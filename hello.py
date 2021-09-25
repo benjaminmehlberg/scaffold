@@ -1,7 +1,11 @@
+#!/usr/bin/env python3
 """
 A test script
 """
 def add(x, y):
+    """
+    A simple add function
+    """
     return x + y
 
 result = add(1, 2)
