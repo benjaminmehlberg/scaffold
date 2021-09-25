@@ -1,17 +1,8 @@
 #!/usr/bin/env python3
 """
 A test script
-"""
-def add(x, y):
-    """
-    A simple add function
-    """
-    return x + y
 
-result = add(1, 2)
-print("The sum of 1 and 2 is {}".format(result))
-
-"""
+also:
 def toyou(x):
     return f"hi {x}"
 
@@ -21,3 +12,12 @@ def add(x):
 def subtract(x):
     return x - 1
 """
+
+def add(x, y):
+    """
+    A simple add function
+    """
+    return x + y
+
+result = add(1, 2)
+print("The sum of 1 and 2 is {}".format(result))
