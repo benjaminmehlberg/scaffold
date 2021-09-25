@@ -1,3 +1,5 @@
+all: install lint test
+
 install:
 	pip install --upgrade pip && pip install -r requirements.txt
 
@@ -9,3 +11,4 @@ lint:
 
 test:
 	python -m pytest -vv --cov=hello test_hello.py
+
