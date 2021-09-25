@@ -1,8 +1,9 @@
-'''
+
 from hello import add
 
 def test_add():
     assert add(1, 2) == 3
+    assert type(add(1, 2)) == int
 '''
 from hello import toyou, add, subtract
 
@@ -23,3 +24,4 @@ def test_hello_add():
 
 def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
+'''
