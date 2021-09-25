@@ -1,4 +1,4 @@
-'''
+
 def add(x, y):
     return x + y
 
@@ -14,3 +14,4 @@ def add(x):
 
 def subtract(x):
     return x - 1
+'''
